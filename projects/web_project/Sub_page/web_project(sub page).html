@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Subscrptions</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/57591aa216.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Users/yazansharawi/Desktop/projects/web_project/Sub_page/web_project(sub page).css">
+  <link rel="stylesheet" href="/Users/yazansharawi/Desktop/projects/web_project/Sub_page/Sub_page.js">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="Nav">
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <h3>Checkout</h3>
+        <hr style="height:2px;border-width:0;color:black;background-color:black">
+        <div class="row">
+          <div class="container">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-5">
+              <form action="">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+            <div class="col-sm-4">
+              <img src="/Users/yazansharawi/Desktop/projects/web_project/Sub_page/pic.png" alt="">
+            </div>
+            <div class="col-sm-3">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <nav class="navbar navbar-style">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href=""><img class="logo" src="/Users/yazansharawi/Desktop/projects/web_project/Main_Page/img/logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="micon">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="page_names" href="">HOME</a></li>
+            <li><a class="page_names" href="">SUBSCRPTIONS</a></li>
+            <li><a class="page_names" href="">TEAM</a></li>
+            <li><a class="page_names" href="">FACILITIES</a></li>
+            <li><a class="page_names" href="">ABOUT US</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <!--&#8593--> Top
+    </button>
+
+
+    <div class="div1">
+      <div class="container">
+        <div class="row">
+          <h2 id="head_price">PRICING</h2>
+          <p id="head_price">Choose a pricing plan that fits your needs.</p><br>
+
+          <div class="col-sm-4" id="cont1">
+            <div class="column">
+              <ul class="w3-ul w3-border w3-hover-shadow">
+                <li class="price">
+                  <h1>3 months</h1>
+                  <br>
+                  <h3> 70 $</h3>
+                  <p>per month</p>
+                </li>
+                <li id="li1">Car park</li>
+                <li id="li1">Car park</li>
+                <li id="li1">Car park</li>
+                <li class="w3-theme-l5 w3-padding-24">
+                  <button class="w3-button  w3-padding-large" onclick="myfunction(3)"><i class="fa fa-check" class="thrid_offer"></i>
+                    <span onclick="openNav()"> Register now!</span></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4" id="cont1">
+            <div class="column">
+              <ul class="w3-ul w3-border w3-hover-shadow">
+                <li class="price">
+                  <h1>6 months</h1>
+                  <br>
+                  <h2>120 $</h2>
+                  <p>per month</p>
+                </li>
+                <li id="li2">Car park</li>
+                <li id="li2">Car park</li>
+                <li id="li2">Car park</li>
+                <li id="li2">Car park</li>
+
+                <li class="w3-theme-l5 w3-padding-24">
+                  <button class="w3-button  w3-padding-large" onclick="myfunction(3)"><i class="fa fa-check" class="thrid_offer"></i>
+                    <span onclick="openNav()"> Register now!</span></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4" id="cont1">
+            <div class="column">
+              <ul class="w3-ul w3-border w3-hover-shadow">
+                <li class="price">
+                  <h1>12 months</h1>
+                  <br>
+                  <h2> 200 $</h2>
+                  <p>per month</p>
+                </li>
+                <li id="li3">Car park</li>
+                <li id="li3">Car park</li>
+                <li id="li3">Car park</li>
+                <li id="li3">Car park</li>
+                <li id="li3">Car park</li>
+                <li class="w3-theme-l5 w3-padding-24">
+                  <button class="w3-button  w3-padding-large" onclick="myfunction(3)"><i class="fa fa-check" class="thrid_offer"></i>
+                    <span onclick="openNav()"> Register now!</span></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="div2">
+      <div class="container">
+        <div class="row">
+          <div class="rules">
+            <ul>
+              <li>Classes are included in the monthly pricing plan</li><br>
+              <li>Visits plan available for 8€ per visit per person (Offer: 60€/10 visits per person)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr style="height:2px;border-width:0;color:black;background-color:black">
+
+    <div class="div3">
+      <div class="row">
+        <div class="container">
+          <div class="col-sm-6">
+            <h2>Choosing us ?</h2>
+            <br>
+            <p>- WE ARE A FAMILY</p>
+            <br>
+            <p>- We listen to you: We customize every workout to help you reach your goals. We motivate: Our personal training coaches help you stay motivated</p>
+            <br>
+            <p>- We deliver results: Stop wasting your time with workouts that aren’t giving you results. Our team will ensure that you achieve results !</p>
+          </div>
+          <div class="col-sm-1">
+          </div>
+          <div class="col-sm-5">
+            <img src="image1.jpeg" alt="image1">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <hr style="height:2px;border-width:0;color:black;background-color:black">
+    <footer>
+      <div class="foo">
+        <div class="row">
+          <div class="col-sm-4">
+            <p id="connect">Follow us:</p>
+            <a href="https://twitter.com/GoldsGymJordan"> <i class="fab fa-twitter-square fa-3x"></i></a>
+            <a href="https://www.facebook.com/Goldsgymjordan/"> <i class="fab fa-facebook-square fa-3x"></i></a>
+            <a href="https://www.instagram.com/accounts/login/"> <i class="fab fa-instagram-square fa-3x"></i></a>
+            <a href="https://www.youtube.com/c/GoldsGymJordan"> <i class="fab fa-youtube-square fa-3x"></i></a>
+          </div>
+          <div class="col-sm-4">
+            <p id="times">Regular Working Hours:</p>
+            <p style="margin-top: 7px;">Monday-Friday: 06:00-22:00</p>
+          </div>
+          <div class="col-sm-4">
+            <p id="contact">Contact us:</p>
+            <p>Phone: +962 1523 4452 <br> <a href="mailto: inquiries@goldsgym.jo">Email</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+  </header>
+</body>
+
+</html>

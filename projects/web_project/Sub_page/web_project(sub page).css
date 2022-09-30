@@ -1,0 +1,222 @@
+/* ------------------------------------navbar section ------------------------------------ */
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+p{
+  color:#ACACAC;
+}
+h3{
+  color:#383838;
+  font-weight: bold;
+}
+
+html{
+    overflow-x:hidden;
+}
+.header{
+  height: 100vh;
+}
+.page_names:hover{
+  border-bottom: 1px solid #333333;
+}
+.navbar-style{
+  background-color: #F4F4F4;
+  box-shadow: 0 5px 10px #efefef;
+}
+.logo{
+  height: 48px;
+  padding: 2px 10px;
+}
+.icon-bar{
+  background: darkcyan;
+}
+li a{
+  color:#333;
+}
+#myBtn {
+  width: 60px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ACACAC;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
+
+
+/* ------------------------------------ Div's section ------------------------------------ */
+
+/* ------------------------------------ div1 ------------------------------------ */
+.div1{
+  text-align: center;
+  background-color: #EDEDED;
+}
+#head_price{
+  text-align:center;
+}
+#li1{
+  padding:34.5px;
+}
+
+#hours{
+  text-align:center;
+}
+#reach{
+  text-align:right;
+}
+#li2{
+  padding:23px;
+}
+#li3{
+  padding:16px;
+}
+.div1 button{
+  background-color: #82AB61;
+  border-radius: 15px;
+  color: white;
+}
+.price{
+    background-color: #82AB61;
+    color: white;
+}
+
+.price p{
+  color: white;
+}
+.price h3{
+  font-size: 30px;
+}
+@media only screen and (max-width: 700px) {
+  #cont1{
+    padding-top: 15px;
+  }
+}
+/* ------------------------------------ div2 ------------------------------------ */
+.div2{
+  background-color: #EDEDED;
+
+}
+.div2 ul{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+/* ------------------------------------ div3 ------------------------------------ */
+.div3{
+  background-color: white;
+}
+.div3 h2{
+    border-bottom: 5px solid black;
+    padding-bottom: 5px;
+   width: 60%;
+}
+.div3 img{
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+/* ------------------------------------ overlay ------------------------------------ */
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+/* ------------------------------------ Nav ------------------------------------ */
+
+#myNav{
+  height: 600px;
+}
+.Nav img{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+form{
+  text-align: left;
+  padding-top: 25px;
+}
+@media screen and (max-height: 700px) {
+  form{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 15px;
+  }
+}
+ /* ------------------------------------ footer ------------------------------------ */
+ footer {
+   box-shadow: 0 5px 20px #efefef;
+ }
+
+ .foo {
+   box-shadow: 0 5px 5px #efefef;
+   height: auto;
+   width: 100%;
+   text-align: center;
+   padding-top: 30px;
+   color: black;
+ }
+ #connect,#times,#contact{
+   padding-top: 10px;
+   font-size: 25px;
+   color:black;
+ }
+ p{
+   font-size: 18px;
+ }
